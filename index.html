@@ -4,6 +4,7 @@
         <title>Lending page</title>
         <link rel="stylesheet" href="./style.css">
         <script src="https://kit.fontawesome.com/2674a37913.js" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
     </head>
     <body>
         <header id="header">
@@ -20,9 +21,9 @@
         </header>
         <div id="second">
             <h1>Handcrafted, home-made masterpieces</h1>
-            <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <input type="email" placeholder="Email">
-                <input style="background-color:  rgb(23, 73, 182); color: white; " type="submit" id="submit" value="Get Started">
+            <form action=" https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" placeholder="Email"  id="mail"required>
+                <input style="background-color:  rgb(23, 73, 182); color: white; " type="submit" id="submit" value="Get Started" onclick="done()">
             </form>
         </div>
         <div id="one">
@@ -49,7 +50,7 @@
         <div id="video">
             <iframe width="500px" height="250px" src="https://www.youtube.com/embed/Cl9LX3tQgtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div id="details" style=" margin-left: 10rem; font-size: 1.5rem;">
+        <div id="details">
             <div class="product">
             <p>
                 <h2>lorem ipsum</h2>
@@ -78,8 +79,11 @@
         <footer>
             <nav>
                 <ul>
-                    <li></li>
+                    <li><a href="#" class="nav-link">Privecy</a></li>
+                    <li><a href="#" class="nav-link">Terms</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
                 </ul>
+                <p>Copyright 2016, Original Trombones</p>
             </nav>
         </footer>
     </body>
